@@ -1,5 +1,12 @@
-def add(a, b):
-    return a + b
+"""
+Start mainfunction
+"""
 
-if __name__ == "__main__":
-    print(add(1, 3))
+import pandas as pd
+
+def readhead():
+    """
+    Main Function to read columns of given dataframe
+    """
+    data = pd.read_csv("camera.csv")
+    return data.head()
