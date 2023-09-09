@@ -1,8 +1,10 @@
-# IDS 706 Data Engineering Mini Project 1
+# IDS 706 Data Engineering Mini Project 2
 
-#### This repository sets up an environment with codespaces and Github Actions to create a Python Github template. 
+#### This repository is created using my Mini Project 1 template. It uses Pandas head() function and returns the first five rows of the given dataframe, which is about camera models' wide range of features. 
+
 ##### Key components in the repository are:
 
+- camera.csv
 - Makefile
 - requirements.txt
 - Dockerfile
@@ -10,3 +12,5 @@
 - main.py
 - test_main.py
 - GitHub Actions
+
+### Results 
