@@ -3,7 +3,6 @@ Start mainfunction
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
 
 data = pd.read_csv("camera.csv")
 
@@ -30,10 +29,3 @@ def summary():
     EDA with Pandas describe function to get mean, median, and standard deviation
     """
     return data['Price'].describe()
-
-def makeplot():
-    """
-    Display time-series plot for EDA
-    """
-    return data.plot()
-    

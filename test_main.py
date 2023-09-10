@@ -6,7 +6,6 @@ from main import readhead
 from main import meanfunction
 from main import medianfunction
 from main import summary
-from main import makeplot
 
 def test_readfeatures():
     """
@@ -36,16 +35,8 @@ def test_summary():
     output = summary()
     print(output)
 
-def test_plot():
-    """
-    Test defined makeplot function regarding data visualization
-    """
-    output = makeplot()
-    print(output)
-
 if __name__ == "__main__":
     test_readfeatures()
     test_mean()
     test_median()
     test_summary()
-    test_plot()
