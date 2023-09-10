@@ -42,6 +42,7 @@ def seeplot():
     """
     plt.scatter(data["Weight (inc. batteries)"], data["Storage included"], label="data")
     plt.legend(loc="best")
+    plt.title("weight vs storage graph")
     plt.xlabel("weight")
     plt.ylabel("storage")
     plt.show()
