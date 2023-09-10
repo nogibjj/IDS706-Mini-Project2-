@@ -46,3 +46,4 @@ def seeplot():
     plt.xlabel("weight")
     plt.ylabel("storage")
     plt.show()
+    
