@@ -52,3 +52,5 @@ if __name__ == "__main__":
     test_mean()
     test_median()
     test_summary()
+    test_seeplot()
+    
