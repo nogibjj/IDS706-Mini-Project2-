@@ -29,4 +29,6 @@ Dataset used: [1000 Cameras Dataset](https://www.kaggle.com/datasets/crawford/10
 ### Output from test_main.py
 This shows top five columns of dataframe with head function, summary statistics of a price column, and a scatter plot. 
 ![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/431a09f2-2984-4f97-9f4b-6da936e8cbaf)
+
+### Data Visualization (Storage vs. Weights of cameras) 
 ![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/44cff96e-5eef-469f-8fa9-e6d4da628446)
