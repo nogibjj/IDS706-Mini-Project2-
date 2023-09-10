@@ -28,4 +28,5 @@ def summary():
     """
     EDA with Pandas describe function to get mean, median, and standard deviation
     """
-    return data['Price'].describe()
+    print(data['Price'].describe())
+    
