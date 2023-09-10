@@ -32,4 +32,5 @@ This shows top five columns of dataframe with head function, summary statistics 
 
 ## Data Visualization (Storage vs. Weights of cameras) 
 It used Pandas plot function with matplotlib library and explains no relationship between cameras' storage and weights. 
+
 ![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/44cff96e-5eef-469f-8fa9-e6d4da628446)
