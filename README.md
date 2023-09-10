@@ -1,7 +1,8 @@
 # IDS 706 Data Engineering Mini Project 2
 
 ### Overview
-This repository is created using my Mini Project 1 template. It uses a couple of Pandass functions and returns descriptive statistics for the first given dataframe, which is about camera models' wide range of features. 
+This repository is created using my Mini Project 1 template. It uses a couple of Pandass functions and returns descriptive statistics for a given dataframe, which is about camera models' wide range of features. 
+
 Dataset used: [1000 Cameras Dataset](https://www.kaggle.com/datasets/crawford/1000-cameras-dataset)
 
 
