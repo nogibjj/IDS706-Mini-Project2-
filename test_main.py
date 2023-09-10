@@ -3,6 +3,9 @@ Start Test
 """
 
 from main import readhead
+from main import meanfunction
+from main import medianfunction
+from main import summary
 
 def test_readfeatures():
     """
@@ -34,3 +37,4 @@ def test_summary():
 
 if __name__ == "__main__":
     test_readfeatures()
+    
