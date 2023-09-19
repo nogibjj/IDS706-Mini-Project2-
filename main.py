@@ -4,6 +4,7 @@ Start mainfunction
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from ydata_profiling import ProfileReport
 
 data = pd.read_csv("camera.csv")
 
@@ -46,4 +47,8 @@ def seeplot():
     plt.xlabel("weight")
     plt.ylabel("storage")
     plt.show()
+
+def pdf_report_generator(df):
+    profile = ProfileReport(df, title="Summary Report")
+    profile.to_file("summary_report.html")
     
