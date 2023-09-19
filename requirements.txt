@@ -12,3 +12,5 @@ uvicorn==0.18.3
 
 #add pandas
 pandas==2.1.0
+matplotlib
+ydata_profiling
