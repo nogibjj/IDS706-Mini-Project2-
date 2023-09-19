@@ -46,6 +46,7 @@ def seeplot():
     plt.title("weight vs storage graph")
     plt.xlabel("weight")
     plt.ylabel("storage")
+    pdf_report_generator(data)
     plt.show()
 
 def pdf_report_generator(df):
