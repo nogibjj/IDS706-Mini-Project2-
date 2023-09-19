@@ -1,4 +1,5 @@
 # IDS 706 Data Engineering Mini Project 2
+[![CI](https://github.com/nogibjj/IDS706-Mini-Project2-/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706-Mini-Project2-/actions/workflows/cicd.yml)
 
 ## Overview
 This repository is created using my Mini Project 1 template. It uses a couple of Pandass functions and returns descriptive statistics for a given dataframe, which is about camera models' wide range of features. 
